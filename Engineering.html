@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Safwan Hossain</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,800i" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="/css/styleEngineering.css">
+		
+
+	</head>
+	<body style="background-color: white">
+		<div class="everything">
+			<script type="text/javascript">
+				document.title="Safwan Hossain";
+			</script>
+		<div id="Menu-Box">	 </div>>
+
+			<div class="menu">
+				
+				<a style="text-decoration: none;"  href="/main.html" id="Name" > SAFWAN <br/>HOSSAIN<br/> </a>
+				<a id="Art-Menu"  style="text-decoration: none;"  href="/main.html"> Art<br/></a>
+				<a id="Engineering-Menu" style="text-decoration: none;"  href="/Engineering.html"> Engineering<br/></a>
+				<a style="text-decoration: none;"  href="/AboutMe.html" id="About-Me-Menu"> About Me<br/></a>
+				<a style="text-decoration: none;"  href="/Resume.pdf" id="Resume-Menu" target="_blank"> Resume<br/></a>
+				<a style="text-decoration: none;"  href="/Contact.html" id="Contact-Menu"> Contact<br/></a>
+				
+
+			</div>
+			<button class ="accordion"> 
+				
+				<p id="type"> Android & iOS Games</p>
+				<p id="title"> Creature Clobber</p>
+				<p id="content"> A retro themed game made using Unity game engine for Android and iOS devices.</p>
+			</button>
+
+			<div class = "panel">
+			
+			<img src="/images/CreatureClobber-1.jpg" width=295px>		
+			<img src="/images/CreatureClobber.jpg" width=295px>	
+			<img src="/images/CreatureClobber-2.jpg" width=295px>			
+			</div>
+
+			<button class ="accordion"> 
+				
+				<p id="type"> Android & iOS Games</p>
+				<p id="title"> World Flag Finder</p>
+				<p id="content"> A puzzel game made using Unity game engine for Android and iOS devices.</p>
+			</button>
+
+			<div class = "panel">
+
+			<img src="/images/WorldFlagFinder-1.jpg" width=295px>		
+			<img src="/images/WorldFlagFinder.jpg" width=295px>	
+			<img src="/images/WorldFlagFinder-2.jpg" width=295px>	
+				
+			</div>
+<button class ="accordion"> 
+				
+				<p id="type"> Android & iOS Games</p>
+				<p id="title"> Martian Lander</p>
+				<p id="content"> An arcade game made using Unity game engine for Android and iOS devices.</p>
+			</button>
+
+			<div class = "panel">
+
+			<img src="/images/MartianLander-1.jpg" width=295px>		
+			<img src="/images/MartianLander.jpg" width=295px>	
+			<img src="/images/MartianLander-2.jpg" width=295px>	
+				
+			</div>
+
+<button class ="accordion"> 
+				
+				<p id="type"> Android & iOS Games</p>
+				<p id="title"> Hoops</p>
+				<p id="content"> A pixel themed arcade game made using Unity game engine for Android and iOS devices.</p>
+			</button>
+
+			<div class = "panel">
+
+			<img src="/images/Hoops-1.jpg" width=295px>		
+			<img src="/images/Hoops.jpg" width=295px>	
+			<img src="/images/Hoops-2.jpg" width=295px>	
+				
+			</div>
+
+
+
+
+			<script type="text/javascript">
+				
+				
+			
+				var items = document.getElementsByClassName("accordion");
+
+				for (var i = 0; i < items.length; i++) 
+				{
+				   items[i].addEventListener("click",	function ()
+				{
+					/* Toggle between adding and removing the "active" class,
+        			to highlight the button that controls the panel */
+					this.classList.toggle("active");
+					/* Toggle between hiding and showing the active panel */
+
+					var panel = this.nextElementSibling;
+
+					if (panel.style.display == "none")
+					{
+						panel.style.display="block";
+					}
+					else
+					{
+						panel.style.display ="none";
+					}
+				});
+				}
+			
+
+			</script>
+
+		</div>
+		
+	</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Safwan Hossain</title>
+
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
+		
+		<script type="text/javascript" ></script>
+
+	</head>
+	<body> 
+
+		<a href="/main.html"><img src="/images/back.png" alt="Back button" width="50" class="back"></a>
+		
+		<img id="display" src="/images/" alt="Image" width="400" >
+		
+		<script type="text/javascript">
+
+			var link = window.location.href; 
+			var index = link.indexOf("?");
+			index++;
+			var imageId = link.substring(index);
+			var path = "/images/";
+			var imagePath = path.concat(imageId);	
+			imagePath = imagePath + ".jpg";
+			var image = document.getElementById('display');
+			var path = "/images/";
+
+			var imageArray = [path+"0.jpg",path+"1.jpg",path+"2.jpg",path+"3.jpg",
+					path+"4.jpg",path+"5.jpg",path+"6.jpg",path+"7.jpg",path+"8.jpg"];
+			var imageIndex = parseInt(imageId);
+
+
+			document.getElementById("display").setAttribute("src",imagePath);
+		
+
+			function NextImage()
+			{	
+				imageIndex++;
+				if (imageIndex > 8)
+				{
+					imageIndex=0;
+				}
+
+				image.setAttribute("src",imageArray[imageIndex]);
+				
+			
+			}
+
+			function PreviousImage()
+			{				
+				imageIndex--;
+				if (imageIndex <0)
+				{
+					imageIndex=8;
+				}
+				image.setAttribute("src",imageArray[imageIndex]);
+				
+			
+			}
+		</script> 
+	
+
+		<input type="image" src="/images/next.png" width=20 id ="next" onclick="NextImage()" />
+
+		<input type="image" src="/images/previous.png" width=20 id ="previous"  onclick="PreviousImage()"/>
+		
+
+	</body>
+</html>

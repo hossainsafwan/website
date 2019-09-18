@@ -1,0 +1,198 @@
+	
+		
+		.everything
+		{
+			
+			margin-top: 25px;
+			margin-left: 25px;
+			
+
+		}
+		#Menu-Box
+		{
+			
+			position: fixed;
+			left:0px;
+			top: 0px;
+			width:170px;
+			height: 100%;
+			background-color: white;
+		}
+		#Name
+		{
+			position: fixed;
+			top:50px;
+			font-family: 'Heebo', sans-serif;			
+			font-weight: bolder;
+			font-size: 25px ;
+			color:	#000000;
+			
+		}
+		
+		#Art-Menu
+		{
+			position: fixed;
+			top:135px;
+			font-family: 'Heebo', sans-serif;			
+			font-weight: bolder;
+			font-size: 15px ;
+			color:	#606060;
+			
+		}
+		a#Art-Menu:hover
+		{
+			color:black;
+			cursor: pointer;
+		}
+		#Engineering-Menu
+		{
+			position: fixed;
+			top:160px;
+			font-family: 'Heebo', sans-serif;			
+			font-weight: bolder;
+			font-size: 15px ;
+			color:	#606060;
+
+			
+		}
+		a#Engineering-Menu:hover
+		{
+			color:black;
+			cursor: pointer;
+		}
+
+
+		#About-Me-Menu
+		{
+			position: fixed;
+			top:188px;
+			font-family: 'Heebo', sans-serif;			
+			font-weight: bolder;
+			font-size: 15px ;
+			color:	#606060;
+			
+		}
+		a#About-Me-Menu:hover
+		{
+			color:black;
+		}
+
+		#Resume-Menu
+		{
+			position: fixed;
+			top:216px;
+			font-family: 'Heebo', sans-serif;			
+			font-weight: bolder;
+			font-size: 15px ;
+			color:	#606060;
+			
+		}
+		a#Resume-Menu:hover
+		{
+			color:black;
+		}
+		
+		#Resume-Menu
+		{
+			position: fixed;
+			top:216px;
+			font-family: 'Heebo', sans-serif;			
+			font-weight: bolder;
+			font-size: 15px ;
+			color:	#606060;
+			
+		}
+		a#Contact-Menu:hover
+		{
+			color:black;
+		}
+
+
+		#Contact-Menu
+		{
+			position: fixed;
+			top:216px;
+			font-family: 'Heebo', sans-serif;			
+			font-weight: bolder;
+			font-size: 15px ;
+			color:	#606060;
+			
+		}
+		a#Contact-Menu:hover
+		{
+			color:black;
+		}
+		
+		#Contact-Menu
+		{
+			position: fixed;
+			top:245px;
+			font-family: 'Heebo', sans-serif;			
+			font-weight: bolder;
+			font-size: 15px ;
+			color:	#606060;
+			
+		}
+		a#Contact-Menu:hover
+		{
+			color:black;
+		}
+		#images
+		{
+			position: static;
+			overflow-x: hidden;
+			margin-left: 150px;
+
+
+			
+		}
+		#image
+		{
+			 transition: transform .2s; /* Animation */
+			 width: 350px;
+			 height: 350px;
+			 margin:0 auto;
+		}
+		a#image:hover
+		{
+			 transform: scale(1.5);
+		}
+		.back
+		{
+			position: fixed;
+			top:10px;
+			left:10px;
+		}
+		#previous
+		{
+			position: fixed;
+			bottom: 5%;
+			margin-left: 40%; 
+		}
+		#next
+		{
+			position: fixed;
+			bottom: 5%;
+			margin-left: 60%; 
+		}
+		#display
+		{
+			position: fixed;
+			top:10px;
+			left:36%;
+
+		}
+		#error
+		{
+			position: absolute;
+			top:100px;
+			left:250px;
+			font-family: 'Heebo', sans-serif;
+			font-weight:  bolder;
+			color: grey;			
+			max-width: 210px;
+			min-width: 210px;
+			z-index: -1;
+		}
+	
+		

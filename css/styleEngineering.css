@@ -1,0 +1,58 @@
+		.accordion
+		{
+		
+
+			background-color:#F0F0F0;
+			border: none;
+			margin-left: 150px;
+			width:900px;
+			outline: none;
+			overflow-x: hidden;
+
+			
+		}
+		.active, .accordion:hover
+		{
+
+			background-color:#e3e3e3;
+			cursor: pointer;
+
+
+		}
+		.panel
+		{
+			background-color:#e3e3e3;
+			margin-left: 150px;
+			font-family: 'EB Garamond', serif;			
+			font-size: 20px ;
+			font-style: italic;
+			color: black;
+			display:block;
+			overflow-x: hidden;
+			width:900px;
+		}
+		#title
+		{
+			margin-left: 0px;
+			margin-top: 20px;
+			font-family: 'EB Garamond', serif;			
+			font-size: 50px ;
+			overflow-x: hidden;
+
+
+		}
+		#type
+		{
+			font-family: 'EB Garamond', serif;			
+			font-size: 20px ;
+			color: grey;
+
+		}
+		#content
+		{
+			bottom:50px;
+			font-family: 'EB Garamond', serif;			
+			font-size: 20px ;
+			font-style: italic;
+			color: grey;
+		}
